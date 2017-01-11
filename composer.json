@@ -2,15 +2,16 @@
     "name": "seti_explorer/crypto",
     "description": "Simple encrypt/decrypt library which allows secure data transfer.",
     "license": "WTFPL",
-    "minimum-stability": "stable",
+    "type": "library",
     "authors": [
         {
             "name": "Vladimir Stamenkovic",
-            "email": "vladimir@programer.rs"
+            "email": "vladimir@programer.rs",
+            "homepage": "https://programer.rs"
         }
     ],
     "require": {
-        "php": ">=5.5"
+        "php": ">=5.5.0"
     },
     "autoload": {
         "psr-4": {
@@ -22,5 +23,6 @@
     },
     "require-dev": {
         "larapack/dd": "^1.1"
-    }
+    },
+    "minimum-stability": "stable"
 }
