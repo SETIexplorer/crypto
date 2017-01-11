@@ -1,6 +1,7 @@
 # Crypto
 
 Created with simple encrypt/decrypt functionality & large data amounts in mind.
+
 [![Codeship](https://travis-ci.org/SETIexplorer/crypto.svg?branch=master)](https://packagist.org/packages/seti_explorer/crypto)
 
 Key features:
