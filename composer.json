@@ -1,7 +1,6 @@
 {
     "name": "seti_explorer/crypto",
     "description": "Simple encrypt/decrypt library which allows secure data transfer.",
-    "type": "library",
     "license": "WTFPL",
     "minimum-stability": "stable",
     "authors": [
