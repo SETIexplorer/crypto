@@ -9,8 +9,8 @@ $data = ['lorem' => 'Ipsum', 'time' => time()];
 
 $crypto = new Encrypt();
 $crypto->setPassword(gen_random_string())
-        ->setPublicKey($key)
-        ->process();
+        ->setPublicKey($key) // remove this line to not encrypt data & iv (not recommended)
+        ->process($data);
 
 dd($crypto->output());
 //dd($crypto->asJson());
