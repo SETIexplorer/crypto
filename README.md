@@ -20,18 +20,25 @@ $crypto = new Encrypt();
 $crypto->setPassword(gen_random_string())
         ->setPublicKey($key)
         ->process($data);
+
+dd($crypto->output()); // dumps results array
+//dd($crypto->asJson());
+//dd($crypto->asObject());
 ```
 
 * **Without initialization vector**
 
+```console
 $crypto = new Encrypt(false);
 $crypto->setPassword(gen_random_string())
         ->setPublicKey($key)
         ->process($data);
+```
+* **Using AES-192-OFB cipher**
 
-Using AES-192-OFB cipher
-
+```console
 $crypto = new Encrypt(true, 'AES-192-OFB');
 $crypto->setPassword(gen_random_string())
         ->setPublicKey($key)
         ->process($data);
+```
