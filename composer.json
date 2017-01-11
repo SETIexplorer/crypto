@@ -3,7 +3,7 @@
     "description": "Simple encrypt/decrypt library which allows secure data transfer.",
     "type": "library",
     "license": "WTFPL",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Vladimir Stamenkovic",
