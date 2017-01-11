@@ -91,7 +91,7 @@ class Decrypt {
      */
     public function output($unserialize = true) {
 
-        $output = unserialize($this->output);
+        $output = @unserialize($this->output);
         if ($unserialize && $output !== false) {
             return $output;
         }
